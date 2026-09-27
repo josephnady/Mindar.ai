@@ -1,0 +1,42 @@
+name: mindar
+description: "Mindar - Free space for what matters. Speak a thought, give it a day."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Calendar UI (day/week/month views)
+  table_calendar: ^3.1.2
+
+  # Networking
+  dio: ^5.5.0
+
+  # Voice input -> text
+  speech_to_text: ^7.0.0
+  permission_handler: ^11.3.1
+
+  # Local secure storage for auth token
+  flutter_secure_storage: ^9.2.2
+
+  # Fonts / date formatting
+  intl: ^0.19.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mindar_icon.png
